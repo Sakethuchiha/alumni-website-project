@@ -1,0 +1,172 @@
+
+
+
+
+body {
+  /*background-image: url('C:\Users\lakshman s\Desktop\my-alumni-portal\public\images\backg6.jpg'); */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: 0;
+  padding: 0; 
+  background-color:whitesmoke
+  ;
+  
+}
+
+
+.page-container {
+  min-height: 100vh; 
+  display: flex;
+  flex-direction: column;
+}
+
+.gallery-container {
+  flex: 1;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding-top: 60px;
+  padding-bottom: 30px;
+  border: 2px solid #ffffff; /* Add border style, width, and color */
+  border-radius: 2%;
+  width: 75%;
+  align-self: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 1);
+  margin-bottom: 30px;
+  margin-top: 20px;
+  
+}
+
+
+.gallery-item {
+  margin: 10px;
+  flex: 0 1 calc(20% - 20px);
+  box-sizing: border-box;
+}
+
+.gallery-item img {
+  max-width: 100%;
+  height: 250px;
+}
+
+
+.navbar {
+  list-style: none;
+  padding: 0;
+  margin: 0px auto;
+  display: flex;
+  justify-content: space-around;
+  background-color: rgb(148, 26, 32); 
+  width: 75%;
+}
+
+.navbar li {
+  cursor: pointer;
+  padding: 10px;
+  border: 1px solid rgb(148, 26, 32);
+  border-radius: 5px;
+  color: #fff;
+}
+
+.navbar li:hover {
+  background-color: rgb(38, 55, 29);
+  color: rgb(148, 26, 32);
+}
+
+h123 {
+  text-align: center;
+  font-family: 'Your Preferred Font', Arial, Helvetica, sans-serif;
+  color: #a20f0f;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 20px;
+  font-size: 50px;
+}
+
+h12 {
+  text-align: center;
+  font-family: 'Your Preferred Font', Arial, Helvetica, sans-serif;
+  color: #000000;
+  letter-spacing: 1px;
+  font-size: 35px;
+  margin-left: 430px;
+  margin-top: 70px;
+}
+
+.introduction-container {
+  width: 100%;
+  max-height: 450px; 
+  overflow: hidden;
+  text-align: center;
+  padding-bottom: 79px;
+  margin-bottom: 80px;
+}
+
+.introduction-container h2 {
+  color: #ffffff;
+}
+
+.introduction-container video {
+  width: 75%;
+  height: 75%; 
+  object-fit: cover; 
+}
+
+
+.image-container {
+  cursor: pointer;
+  border: 1px solid #000000;
+  margin: 10px;
+  padding: 0px;
+  text-align: center;
+  width: 400px;
+  height: 400px;
+  margin-left: 205px;
+  position: relative; /* Add position relative to the container */
+  margin-bottom: 80px;
+  display:flex;
+}
+.image-wrapper {
+  position: relative;
+}
+.caption {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.7);
+  color: #fff;
+  padding: 5px;
+  font-size: 14px;
+}
+
+.text-container {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 10px;
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: right;
+}
+
+.default-image {
+  width: 100%; /* Make the default image fill the container */
+  height: 100%; /* Make the default image fill the container */
+  object-fit: cover; /* Maintain aspect ratio and cover the container */
+  position: absolute; /* Position the default image absolutely */
+  top: 0;
+  left: 0;
+}
+
+
+.image-container .default-image {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.image-container:hover {
+  background-color: #f9f9f9; 
+}
+

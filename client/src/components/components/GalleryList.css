@@ -1,0 +1,20 @@
+/* src/components/GalleryList.css */
+
+/* ... (previous styles) */
+
+.gallery-list-container {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .action-buttons {
+    display: flex;
+  }
+  
+  .edit-button,
+  .delete-button {
+    margin-right: 8px;
+  }
+  
+  /* ... (remaining styles) */
+  
